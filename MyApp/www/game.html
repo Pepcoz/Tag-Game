@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tag</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/game.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+
+</head>
+
+<body>
+    <div class = "gameScreenDiv">
+      <div id="gameScreen">
+        <canvas id = "canvas"></canvas>
+      </div>
+    </div>
+    
+
+    <div class = "controlDiv">
+      <div class = "upControl">
+        <button id = "upButton" onclick = "setUP()">
+          up
+        </button>
+
+      </div>
+
+      <div class = "bottomControl">
+        <button id = "leftButton" onclick = "setLEFT()">
+          left
+        </button>
+
+        <button id = "downButton" onclick = "setDOWN()">
+          down
+        </button>
+
+        <button id = "rightButton" onclick = "setRIGHT()">
+          right
+        </button>
+      </div>
+      </div>
+
+
+      
+
+
+
+
+      <script src="js/game.js" ></script>
+</body>
+</html>

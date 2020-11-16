@@ -1,0 +1,100 @@
+.gameScreenDiv {
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 399px;
+    height:399px;
+    background-color: white;
+
+}
+
+#canvas{
+    border: 1px solid black;
+}
+
+
+
+.controlDiv{
+    /* width: 20vw;
+    height: 150px;
+    
+    
+    margin: auto; */
+}
+
+.control{
+    /* width:20vw; */
+    /* height:50vw; */
+}
+
+.upControl {
+    /* height:50%; */
+    /* width: 100%; */
+    text-align: center;
+    
+}
+
+.bottomControl{
+    text-align: center;
+    /* background-color: blue; */
+}
+
+#upButton{
+    height: 100px;
+    width: 100px;
+    /* margin: auto; */
+    background-color: green;
+}
+
+#leftButton{
+    height: 100px;
+    width: 100px;
+    /* margin: auto; */
+    background-color: red;
+}
+
+#downButton{
+    height: 100px;
+    width: 100px;
+    /* margin: auto; */
+    background-color: blue;
+}
+
+#rightButton{
+    height: 100px;
+    width: 100px;
+    /* margin: auto; */
+    background-color: yellow;
+}
+
+
+@media only screen and (max-width: 500px) {
+    /* .bottomControl {
+        width: 250px;
+    } */
+    #upButton {
+        width: 70px;
+        height: 70px;
+    }
+    #downButton {
+        width: 70px;
+        height: 70px;
+    }
+    #leftButton {
+        width: 70px;
+        height: 70px;
+    }
+    #rightButton {
+        width: 70px;
+        height: 70px;
+    }
+}
